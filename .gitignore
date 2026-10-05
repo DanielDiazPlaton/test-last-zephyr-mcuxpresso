@@ -1,0 +1,18 @@
+# Compilación
+build/
+*.bin
+*.elf
+*.hex
+
+# Metadatos locales y de CMake
+.cache/
+CMakeUserPresets.json
+compile_commands.json
+
+# Entornos virtuales si los hay
+.venv/
+__pycache__/
+
+# VS Code específico de usuario (opcional ignorar .vscode o dejar solo extensiones recomendadas)
+.vscode/*
+!.vscode/extensions.json
